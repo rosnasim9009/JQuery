@@ -1,0 +1,17 @@
+.one{
+  margin-top: 7%;
+  border-style: none;
+  outline: none;
+  margin-left: 25%;
+  width:50%;
+  font-size: 40px;
+  text-align: center;
+}
+li{
+  color: #003300;
+  font-size: 30px;
+  margin-left: 45%;
+}
+li:hover{
+  text-decoration: line-through;
+}
