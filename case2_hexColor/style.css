@@ -1,0 +1,39 @@
+
+body{
+  animation: color-animation 5s infinite linear alternate;
+ }
+
+ .box{
+     text-align:center;
+     margin-top:8em;
+     font-size: 250%;
+     color:white;
+ }
+
+ @keyframes color-animation
+  {
+     0% {
+        background: #008f00;
+     }
+     30% {
+        background: #ffff00;
+     }
+     60% {
+        background: #ff3385;
+     }
+     90% {
+        background: #bbdefb;
+      }
+      120% {
+         background: #6a1b9a;
+      }
+      150% {
+         background: #ad1457;
+      }
+      180%{
+        background: #660066;
+      }
+      210%{
+        background: #800000;
+      }
+   }
