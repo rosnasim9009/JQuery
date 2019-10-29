@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Get Elements By Class Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#one").fadeIn(500);
+          $("#two").fadeIn(1000);
+          $("#three").fadeIn(1500);
+          $("#four").fadeIn(2000);
+          $("#add").fadeIn(2500);
+          $("#des").fadeIn(2500);
+          $("#desc").fadeIn(2500);
+
+      });
+    </script>
+    <script src="showDiv.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>Buy groceries <input id="count" type="text" style="
+        font-size: unset;
+        width: 6%;
+        border-radius: 13px;
+        text-align: center;"/></h2>
+      <ul id="myList">
+        <li id="one" class="hot" Style="display:none"><em>Fresh</em> figs</li>
+        <li id="two" class="hot" Style="display:none">Pine nuts</li>
+        <li id="three" class="hot" Style="display:none">Honey</li>
+        <li id="four" class="hot" Style="display:none">Balsamic vinegar</li>
+      </ul>
+      <li id="add" Style="display:none"><button type="button" style="
+        border-radius: 8px;
+        font-size: 62%;
+        background-color: black;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;"onclick="addItem()">ADD</button>
+        <div id="desc" style="margin-left: 47%;margin-top: -10%;">
+
+        <input id="des" class="box" type="text" placeholder="type groceries"/></div></li>
+      </div>
+  </body>
+</html>
